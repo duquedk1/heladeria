@@ -2,7 +2,6 @@ let opcion=0
 let vHelados=[]
 do{
     option = showMenu()
-
     switch (option){
         case 1:
             crearHelado()
