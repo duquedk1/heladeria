@@ -21,11 +21,13 @@ do{
             realizarVenta()
             break
         case 6:
+        let respuesta=window.confirm(`Esta seguro que desea cerrar sesion`)
+        if(respuesta){
             option=6
-            break
-        default:
-            option=6
-            break
+        }else{
+            showMenu()
+        }
+        break
     }
 
 }while(option!==6)
