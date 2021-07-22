@@ -1,4 +1,4 @@
-h1 Programa para inventario de helados
+Programa para inventario de helados
 
 Ejercicio Javascript
 Juanita tiene una tienda de helados y necesita para su tienda administrar el inventario.
